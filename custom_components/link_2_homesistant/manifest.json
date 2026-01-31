@@ -1,0 +1,10 @@
+{
+  "domain": "link_2_homesistant",
+  "name": "Link 2 Home Assistant",
+  "version": "0.1.0",
+  "documentation": "https://github.com/yourname/link_2_homesistant",
+  "requirements": [],
+  "codeowners": [],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}

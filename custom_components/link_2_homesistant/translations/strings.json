@@ -1,0 +1,38 @@
+{
+  "title": "Link 2 Home Assistant",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect remote Home Assistant",
+        "description": "Enter the connection details for the remote Home Assistant instance.",
+        "data": {
+          "name": "Name",
+          "remote_url": "Remote URL",
+          "remote_token": "Long-Lived Access Token",
+          "remote_entity_id": "Remote switch entity_id",
+          "source_entity_id": "Local switch to mirror (optional)",
+          "poll_interval": "Polling interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Invalid URL"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "description": "Adjust synchronization options.",
+        "data": {
+          "name": "Name",
+          "remote_url": "Remote URL",
+          "remote_token": "Long-Lived Access Token",
+          "remote_entity_id": "Remote switch entity_id",
+          "source_entity_id": "Local switch to mirror (optional)",
+          "poll_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  }
+}

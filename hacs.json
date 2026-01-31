@@ -1,0 +1,6 @@
+{
+  "name": "Link 2 Home Assistant",
+  "content_in_root": false,
+  "domains": ["switch"],
+  "iot_class": "cloud_polling"
+}

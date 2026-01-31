@@ -1,0 +1,38 @@
+{
+  "title": "Link 2 Home Assistant",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connecter Home Assistant distant",
+        "description": "Renseignez les informations de connexion du Home Assistant distant.",
+        "data": {
+          "name": "Nom",
+          "remote_url": "URL distante",
+          "remote_token": "Jeton d’accès longue durée",
+          "remote_entity_id": "entity_id du switch distant",
+          "source_entity_id": "Switch local à relayer (optionnel)",
+          "poll_interval": "Intervalle de rafraîchissement (secondes)"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL invalide"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "description": "Ajustez les options de synchronisation.",
+        "data": {
+          "name": "Nom",
+          "remote_url": "URL distante",
+          "remote_token": "Jeton d’accès longue durée",
+          "remote_entity_id": "entity_id du switch distant",
+          "source_entity_id": "Switch local à relayer (optionnel)",
+          "poll_interval": "Intervalle de rafraîchissement (secondes)"
+        }
+      }
+    }
+  }
+}
