@@ -22,12 +22,12 @@ Vous pourrez renseigner :
 ```yaml
 switch:
   - platform: link_2_homesistant
-    name: "Gabriel Link"
+    name: "buton Link"
     remote_url: "http://192.168.1.50:8123"
     remote_token: "LONG_LIVED_ACCESS_TOKEN"
     remote_entity_id: "switch.receiver"
     # Optionnel : écoute un switch local et le transmet au remote
-    source_entity_id: "switch.gabriel"
+    source_entity_id: "switch.button"
     poll_interval: 5
 ```
 
